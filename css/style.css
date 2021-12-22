@@ -339,6 +339,16 @@ p.news-link {
     align-items: center;
 }
 
+.news .row .news-box2 .image{
+    padding-right: .5rem;
+}
+
+.news .row .news-box2 .content{
+    padding-left: .5rem;
+}
+
+
+
 /* library */
 .library{
     padding: 5rem 0;
