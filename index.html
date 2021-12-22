@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nguyễn Quang Thuận</title>
+    <link rel="icon" href="https://i.ytimg.com/an/ay3Mmb3TiOrxKctBTp02hA/featured_channel.jpg?v=5c7aa37d">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="main">
+        <!-- header-top -->
+        <header class="header-top col-12">
+            <div class="wrapper">
+                <div class="container">
+                    <!-- header-left -->
+                    <ul class="menu-left col-6">
+                        <li class="menu-left_item">
+                            <a href="#" class="menu-left-link">Sinh Viên</a>
+                        </li>
+                        <li class="menu-left_item">
+                            <a href="#" class="menu-left-link">Giáo viên & Nhân viên</a>
+                        </li>
+                        <li class="menu-left_item">
+                            <a href="#" class="menu-left-link">Cựu sinh viên</a>
+                        </li>
+                        <li class="menu-left_item">
+                            <a href="#" class="menu-left-link">Phụ huynh</a>
+                        </li>
+                    </ul>
+                
+                    <!-- header-right -->
+                    <ul class="menu-right col-5">
+                        <li class="menu-right_item">
+                            <a href="#" class="menu-right-link">Đơn vị trực thuộc</a>
+                        </li>
+                        <li class="menu-right_item">
+                            <a href="#" class="menu-right-link">Liên kết nhanh</a>
+                        </li>
+                        <li class="menu-right_item">
+                            <a href="#" class="menu-right-link">Bản đồ trường</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <ion-icon id="icon-navbar" class="menu-outline" name="menu-outline"></ion-icon>
+            </div>
+        </header>
+
+        <script>
+            $(document).ready(function(){
+                $('#icon-navbar').click(function(){
+                    $('.header-top .container').slideToggle(".container");
+                })
+
+            })
+        </script>
+
+        <!-- header-main -->
+        <header class="header-main col-12">
+            <div class="wrapper">
+                <div class="container">
+                    <div class="logo col-3">
+                        <img src="./images/logo/HCEM-logo-White-VI.png" alt="logo website trường cao đẳng cơ điện">
+                    </div>
+                    <div class="right col-4">
+                        <div class="country col-6">
+                            <img src="./images/modules/de.png" alt="country image">
+                            <img src="./images/modules/en.png" alt="country image">
+                            <img src="./images/modules/ja.png" alt="country image">
+                            <img src="./images/modules/ko.png" alt="country image">
+                            <img src="./images/modules/vi.png" alt="country image">
+                            <img src="./images/modules/zh-CN.png" alt="country image">
+                        </div>
+
+                        <ul class="login col-6">
+                            <li class="login-item col-6">
+                                <a href="#" class="login-link">Đăng nhập</a>
+                            </li>
+
+                            <li class="login-item col-6">
+                                <a href="#" class="login-link">Đăng ký</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- menu -->
+        <nav>
+            <div class="wrapper">
+                <div class="brand-navbar">
+                    <a href="#" class="menu-link">
+                        <ion-icon name="home-outline"></ion-icon>
+                    </a>
+                </div>
+                <ul class="menu">
+                    <li class="menu-item">
+                        <a href="#" class="menu-link">Giới Thiệu</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#" class="menu-link">Tin tức - sự kiện</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#" class="menu-link">Đào tạo</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#" class="menu-link">Tuyển sinh</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#" class="menu-link">Hơp tác quốc tế</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#" class="menu-link">Videos</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#" class="menu-link">Liên hệ</a>
+                    </li>
+                </ul>
+
+                <ion-icon id="menu-bar" class="menu-outline" name="menu-outline"></ion-icon>
+            </div>
+        </nav>
+
+        <script>
+            $(document).ready(function(){
+                $('#menu-bar').click(function(){
+                    $('.menu').slideToggle("menu");
+                })
+
+            })
+        </script>
+
+        <!-- slide -->
+        <section class="slide-show">
+            <div class="slide-image">
+                <img src="./images/slider/slide1.jpg" alt="ảnh slide ">
+            </div>
+        </section>
+
+        <!-- banner -->
+        <div class="wrapper">
+            <section class="banner col-12">
+                <div class="box1 col-5">
+                    <h3>Thư ngỏ gửi các bạn thí sinh</h3>
+                    <div class="content col-12">
+                        <div class="image col-4">
+                            <img src="./images/banner/thay-hieu-truogn.jpg" alt="ảnh thầy hiệu trưởng">
+                        </div>
+                        <div class="title col-8">
+                            <p>Thưa các bạn, ở thời điểm này các bạn đang đứng trước rất nhiều cơ hội và nhiều sự lựa chọn cho con đường học tập, hơn nữa là nghề nghiệp và sự nghiệp sau này, có không ít bạn...</p>
+
+                            <a href="#">Đọc tiếp >></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="box2 col-3">
+                    <h3>Tôi muốn</h3>
+                    <div class="content">
+                        <p><a href="#">Nộp hồ sơ</a></p>
+                        <p><a href="#">Đăng ký trực tuyến</a></p>
+                        <p><a href="#">Khám phá một nghề</a></p>
+                        <p><a href="#">Tìm hiểu về học phí</a></p>
+                        <p><a href="#">Công việc sau khi tốt nghiệp</a></p>
+                    </div>
+                </div>
+                <div class="box3 col-4">
+                    <embed src="https://www.youtube.com/embed/E5Cdujz2Qjk" width="100%" height="100%">
+                </div>
+                <p class="video-2 col-6">
+                    <embed src="https://www.youtube.com/embed/Bi3IvLKUjYY" width="100%" height="100%">
+                </p>
+                <p class="video-3 col-6">
+                    <embed src="https://www.youtube.com/embed/a3dYBVMuQws" width="100%" height="100%">
+                </p>
+            </section>
+        </div>
+
+        <!-- container -->
+        <div class="wrapper">
+            <section class="news col-12">
+                <div class="events col-3">
+                    <h3 class="col-12">Sự kiện HCEM</h3>
+                    <div class="container col-12">
+                        <div class="box col-12">
+                            <div class="date col-4">
+                                <p><strong>30</strong></p>
+                                <div class="crossbar"></div>
+                                <p>08 2021</p>
+                            </div>
+                            <div class="title col-8">
+                                <p>Nhập học đợt 1 - Năm học 2021 - 2022</p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="box col-12">
+                            <div class="date col-4">
+                                <p><strong>30</strong></p>
+                                <div class="crossbar"></div>
+                                <p>08 2021</p>
+                            </div>
+                            <div class="title col-8">
+                                <p>Thời khóa biểu khóa 11 áp dụng từ ngày 11/9</p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="box col-12">
+                            <div class="date col-4">
+                                <p><strong>30</strong></p>
+                                <div class="crossbar"></div>
+                                <p>08 2021</p>
+                            </div>
+                            <div class="title col-8">
+                                <p>CHƯƠNG TRÌNH HỌC BỔNG SAMSUNG</p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="box col-12">
+                            <div class="date col-4">
+                                <p><strong>30</strong></p>
+                                <div class="crossbar"></div>
+                                <p>08 2021</p>
+                            </div>
+                            <div class="title col-8">
+                                <p>Các sự kiện nổi bật từ ngày 28/5/20</p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="box col-12">
+                            <div class="date col-4">
+                                <p><strong>30</strong></p>
+                                <div class="crossbar"></div>
+                                <p>08 2021</p>
+                            </div>
+                            <div class="title col-8">
+                                <p>Lễ Công Bố Kết Quả Kiểm Định Chất Lượng GD Theo Tiêu Chuẩn Anh Quốc</p>
+                            </div>
+                        </div>
+
+                        <p class="video col-12">
+                            <embed src="https://www.youtube.com/embed/Bi3IvLKUjYY" width="100%" height="100%">
+                        </p>
+                        <p class="video col-12">
+                            <embed src="https://www.youtube.com/embed/a3dYBVMuQws" width="100%" height="100%">
+                        </p>
+                    </div>
+                </div>
+    
+                <div class="col-6 main-news">
+                    <h3 class="col-12">Sự kiện HCEM</h3>
+                    <div class="container col-12">
+                        <div class="news-box1 col-12">
+                            <div class="news-item col-12">
+                                <div class="image col-6">
+                                    <img src="./images/article/atc-banner.jpg" alt="ảnh thông báo">
+                                </div>
+                                <div class="content col-6">
+                                    <p><strong>KẾ HOẠCH CUỘC THI KẾ HOẠCH CUỘC THI “TÌM HIỂU ...</strong></p>
+                                    <p><small>KẾ HOẠCH CUỘC THI “TÌM HIỂU LỊCH SỬ VÀ Ý NGHĨA NGÀY PHỤ NỮ VIỆT NAM 20/10”  CHÀO MỪNG NGÀY PHỤ NỮ VIỆT NAM 20/10/2021 </small></p>
+                                </div>
+                            </div>
+                            <p class="col-12">
+                                <i><ion-icon name="calendar-outline"></ion-icon></i>
+                                <small>Thứ tư, 13 Tháng 10 2021</small></p>
+                        </div>
+                        
+                        <p class="col-12 news-link">
+                            <a href="#">Đọc tiếp</a>
+                            <ion-icon name="arrow-forward-circle-outline"></ion-icon>
+                        </p>
+
+                        <div class="row">
+                            <div class="item-1 col-6">
+                                <div class="news-box2 col-12">
+                                    <div class="news-item col-12">
+                                        <div class="image col-6">
+                                            <img src="./images/article/atc1.jpg" alt="ảnh thông báo">
+                                        </div>
+                                        <div class="content col-6">
+                                            <p><strong>KẾ HOẠCH CUỘC THI KẾ HOẠCH CUỘC THI “TÌM HIỂU ...</strong></p>
+                                            <p><small>KẾ HOẠCH CUỘC THI “TÌM HIỂU LỊCH SỬ VÀ Ý NGHĨA NGÀY PHỤ NỮ VIỆT NAM 20/10”  CHÀO MỪNG NGÀY PHỤ NỮ VIỆT NAM 20/10/2021 </small></p>
+                                        </div>
+                                    </div>
+                                    <p class="col-12">
+                                        <i><ion-icon name="calendar-outline"></ion-icon></i>
+                                        <small>Thứ tư, 13 Tháng 10 2021</small></p>
+                                </div>
+                            </div>
+
+                            <div class="item-2 col-6">
+                                <div class="news-box2 col-12">
+                                    <div class="news-item col-12">
+                                        <div class="image col-6">
+                                            <img src="./images/article/atc2.jpg" alt="ảnh thông báo">
+                                        </div>
+                                        <div class="content col-6">
+                                            <p><strong>KẾ HOẠCH CUỘC THI KẾ HOẠCH CUỘC THI “TÌM HIỂU ...</strong></p>
+                                            <p><small>KẾ HOẠCH CUỘC THI “TÌM HIỂU LỊCH SỬ VÀ Ý NGHĨA NGÀY PHỤ NỮ VIỆT NAM 20/10”  CHÀO MỪNG NGÀY PHỤ NỮ VIỆT NAM 20/10/2021 </small></p>
+                                        </div>
+                                    </div>
+                                    <p class="col-12">
+                                        <i><ion-icon name="calendar-outline"></ion-icon></i>
+                                        <small>Thứ tư, 13 Tháng 10 2021</small></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="item-1 col-6">
+                                <div class="news-box2 col-12">
+                                    <div class="news-item col-12">
+                                        <div class="image col-6">
+                                            <img src="./images/article/atc3.jpg" alt="ảnh thông báo">
+                                        </div>
+                                        <div class="content col-6">
+                                            <p><strong>KẾ HOẠCH CUỘC THI KẾ HOẠCH CUỘC THI “TÌM HIỂU ...</strong></p>
+                                            <p><small>KẾ HOẠCH CUỘC THI “TÌM HIỂU LỊCH SỬ VÀ Ý NGHĨA NGÀY PHỤ NỮ VIỆT NAM 20/10”  CHÀO MỪNG NGÀY PHỤ NỮ VIỆT NAM 20/10/2021 </small></p>
+                                        </div>
+                                    </div>
+                                    <p class="col-12">
+                                        <i><ion-icon name="calendar-outline"></ion-icon></i>
+                                        <small>Thứ tư, 13 Tháng 10 2021</small></p>
+                                </div>
+                            </div>
+
+                            <div class="item-2 col-6">
+                                <div class="news-box2 col-12">
+                                    <div class="news-item col-12">
+                                        <div class="image col-6">
+                                            <img src="./images/article/atc4.jpg" alt="ảnh thông báo">
+                                        </div>
+                                        <div class="content col-6">
+                                            <p><strong>KẾ HOẠCH CUỘC THI KẾ HOẠCH CUỘC THI “TÌM HIỂU ...</strong></p>
+                                            <p><small>KẾ HOẠCH CUỘC THI “TÌM HIỂU LỊCH SỬ VÀ Ý NGHĨA NGÀY PHỤ NỮ VIỆT NAM 20/10”  CHÀO MỪNG NGÀY PHỤ NỮ VIỆT NAM 20/10/2021 </small></p>
+                                        </div>
+                                    </div>
+                                    <p class="col-12">
+                                        <i><ion-icon name="calendar-outline"></ion-icon></i>
+                                        <small>Thứ tư, 13 Tháng 10 2021</small></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="item-1 col-6">
+                                <div class="news-box2 col-12">
+                                    <div class="news-item col-12">
+                                        <div class="image col-6">
+                                            <img src="./images/article/atc5.jpg" alt="ảnh thông báo">
+                                        </div>
+                                        <div class="content col-6">
+                                            <p><strong>KẾ HOẠCH CUỘC THI KẾ HOẠCH CUỘC THI “TÌM HIỂU ...</strong></p>
+                                            <p><small>KẾ HOẠCH CUỘC THI “TÌM HIỂU LỊCH SỬ VÀ Ý NGHĨA NGÀY PHỤ NỮ VIỆT NAM 20/10”  CHÀO MỪNG NGÀY PHỤ NỮ VIỆT NAM 20/10/2021 </small></p>
+                                        </div>
+                                    </div>
+                                    <p class="col-12">
+                                        <i><ion-icon name="calendar-outline"></ion-icon></i>
+                                        <small>Thứ tư, 13 Tháng 10 2021</small></p>
+                                </div>
+                            </div>
+
+                            <div class="item-2 col-6">
+                                <div class="news-box2 col-12">
+                                    <div class="news-item col-12">
+                                        <div class="image col-6">
+                                            <img src="./images/article/atc6.jpg" alt="ảnh thông báo">
+                                        </div>
+                                        <div class="content col-6">
+                                            <p><strong>KẾ HOẠCH CUỘC THI KẾ HOẠCH CUỘC THI “TÌM HIỂU ...</strong></p>
+                                            <p><small>KẾ HOẠCH CUỘC THI “TÌM HIỂU LỊCH SỬ VÀ Ý NGHĨA NGÀY PHỤ NỮ VIỆT NAM 20/10”  CHÀO MỪNG NGÀY PHỤ NỮ VIỆT NAM 20/10/2021 </small></p>
+                                        </div>
+                                    </div>
+                                    <p class="col-12">
+                                        <i><ion-icon name="calendar-outline"></ion-icon></i>
+                                        <small>Thứ tư, 13 Tháng 10 2021</small></p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="row">
+                            <div class="item-1 col-6">
+                                <div class="news-box2 col-12">
+                                    <div class="news-item col-12">
+                                        <div class="image col-6">
+                                            <img src="./images/article/atc1.jpg" alt="ảnh thông báo">
+                                        </div>
+                                        <div class="content col-6">
+                                            <p><strong>KẾ HOẠCH CUỘC THI KẾ HOẠCH CUỘC THI “TÌM HIỂU ...</strong></p>
+                                            <p><small>KẾ HOẠCH CUỘC THI “TÌM HIỂU LỊCH SỬ VÀ Ý NGHĨA NGÀY PHỤ NỮ VIỆT NAM 20/10”  CHÀO MỪNG NGÀY PHỤ NỮ VIỆT NAM 20/10/2021 </small></p>
+                                        </div>
+                                    </div>
+                                    <p class="col-12">
+                                        <i><ion-icon name="calendar-outline"></ion-icon></i>
+                                        <small>Thứ tư, 13 Tháng 10 2021</small></p>
+                                </div>
+                            </div>
+
+                            <div class="item-2 col-6">
+                                <div class="news-box2 col-12">
+                                    <div class="news-item col-12">
+                                        <div class="image col-6">
+                                            <img src="./images/article/atc2.jpg" alt="ảnh thông báo">
+                                        </div>
+                                        <div class="content col-6">
+                                            <p><strong>KẾ HOẠCH CUỘC THI KẾ HOẠCH CUỘC THI “TÌM HIỂU ...</strong></p>
+                                            <p><small>KẾ HOẠCH CUỘC THI “TÌM HIỂU LỊCH SỬ VÀ Ý NGHĨA NGÀY PHỤ NỮ VIỆT NAM 20/10”  CHÀO MỪNG NGÀY PHỤ NỮ VIỆT NAM 20/10/2021 </small></p>
+                                        </div>
+                                    </div>
+                                    <p class="col-12">
+                                        <i><ion-icon name="calendar-outline"></ion-icon></i>
+                                        <small>Thứ tư, 13 Tháng 10 2021</small></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <p class="col-12 full-news">
+                            <a href="#">Đọc tiếp</a>
+                            <ion-icon name="arrow-forward-circle-outline"></ion-icon>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-3 right">
+                    <div class="image col-12">
+                        <img src="./images/video web/video11nghe.gif" alt="ảnh động">
+                    </div>
+                    <div class="col-12 item-1">
+                        <i class="col-3"><ion-icon name="calendar-number-outline"></ion-icon></i>
+                        <div class="col-8 heading">
+                            Kế hoạch công việc
+                        </div>
+                    </div>
+                    <div class="col-12 item-2">
+                        <i class="col-3"><ion-icon name="newspaper-outline"></ion-icon></i>
+                        <div class="col-8 heading">
+                            Quản lý văn bản & Hồ sơ công việc
+                        </div>
+                    </div>
+                    <div class="col-12 item-3">
+                        <i class="col-3"><ion-icon name="mail-outline"></ion-icon></i>
+                        <div class="col-8 heading">
+                            Đăng ký học online
+                        </div>
+                    </div>
+                    <div class="col-12 item-4">
+                        <i class="col-3"><ion-icon name="document-text-outline"></ion-icon></i>
+                        <div class="col-8 heading">
+                            Tải tài liệu học tập
+                        </div>
+                    </div>
+
+                    <div class="fanpage col-12">
+                        <div class="module  blank no-padding  clearfix">
+                            <div class="modcontent clearfix">
+                            <div id="fb-root" class=" fb_reset"><div style="position: absolute; top: -10000px; width: 0px; height: 0px;"><div></div></div><div id="fb-customer-chat" class="fb-customerchat fb_invisible_flow fb_iframe_widget" page_id="338931296753910" attribution="biz_inbox" fb-xfbml-state="rendered" fb-iframe-plugin-query="app_id=&amp;attribution=biz_inbox&amp;container_width=0&amp;current_url=http%3A%2F%2Fcodienhanoi.edu.vn%2Fvi%2F&amp;local_state=%7B%22v%22%3A1%2C%22path%22%3A2%2C%22chatState%22%3A1%2C%22visibility%22%3A%22hidden%22%2C%22showUpgradePrompt%22%3A%22not_shown%22%7D&amp;locale=vi_VN&amp;log_id=de2b2f0f-2277-45d1-93a1-33e28303ed26&amp;page_id=338931296753910&amp;request_time=1640133314903&amp;sdk=joey"><span style="vertical-align: bottom; width: 1000px; height: 0px;"><iframe name="f32e34de85a7a1c" width="1000px" height="1000px" data-testid="dialog_iframe" title="" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" src="https://www.facebook.com/plugins/customerchat.php?app_id=&amp;attribution=biz_inbox&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df12fdf5128b945c%26domain%3Dcodienhanoi.edu.vn%26is_canvas%3Dfalse%26origin%3Dhttp%253A%252F%252Fcodienhanoi.edu.vn%252Ff2df900c7752668%26relation%3Dparent.parent&amp;container_width=0&amp;current_url=http%3A%2F%2Fcodienhanoi.edu.vn%2Fvi%2F&amp;local_state=%7B%22v%22%3A1%2C%22path%22%3A2%2C%22chatState%22%3A1%2C%22visibility%22%3A%22hidden%22%2C%22showUpgradePrompt%22%3A%22not_shown%22%7D&amp;locale=vi_VN&amp;log_id=de2b2f0f-2277-45d1-93a1-33e28303ed26&amp;page_id=338931296753910&amp;request_time=1640133314902&amp;sdk=joey" style="padding: 0px; position: fixed; z-index: 2147483646; border-radius: 16px; top: auto; background: none; width: 399px; bottom: 110px; max-height: 0px; left: -4px; margin-left: 12px; visibility: visible;" class=""></iframe></span></div><div class="fb_dialog  fb_dialog_advanced" alignment="left" desktop_bottom_spacing="50"><div class="fb_dialog_content"><iframe name="blank_f32e34de85a7a1c" width="60px" tabindex="-1" data-testid="bubble_iframe" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" src="" style="animation: 3s ease-out 0s 1 normal none running slideInFromBottomDelay; background: none; border-radius: 30px; bottom: 50px; box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 12px 0px; display: block; height: 60px; left: 12px; margin: 0px 12px; overflow: visible; padding: 0px; position: fixed; top: auto; width: 60px; z-index: 2147483644;"></iframe><iframe name="unread_f32e34de85a7a1c" tabindex="-1" data-testid="unread_iframe" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" src="" style="background: none; border-radius: 4pt; bottom: 94px; height: 24px; left: 67px; position: fixed; width: 20px; z-index: 2147483645;"></iframe></div></div></div>
+                            
+                            <script>(function(d, s, id) {
+                            var js, fjs = d.getElementsByTagName(s)[0];
+                            if (d.getElementById(id)) return;
+                            js = d.createElement(s); js.id = id;
+                            js.src = "//connect.facebook.net/vi_VN/all.js#xfbml=1&amp;appId=218297978255923";
+                            fjs.parentNode.insertBefore(js, fjs);
+                            }(document, 'script', 'facebook-jssdk'));</script>
+                            
+                                <div class="fb-like-box fb_iframe_widget" data-href="https://www.facebook.com/pages/Tr%C6%B0%E1%BB%9Dng-Cao-%C4%90%E1%BA%B3ng-Ngh%E1%BB%81-C%C6%A1-%C4%90i%E1%BB%87n-H%C3%A0-N%E1%BB%99i/218297978255923" data-width="270" data-height="365" data-colorscheme="light" data-show-faces="1" data-show-border="1" data-stream="0" data-header="1" data-force-wall="false" fb-xfbml-state="rendered" fb-iframe-plugin-query="app_id=&amp;color_scheme=light&amp;container_width=0&amp;force_wall=false&amp;header=true&amp;height=365&amp;href=https%3A%2F%2Fwww.facebook.com%2Fpages%2FTr%25C6%25B0%25E1%25BB%259Dng-Cao-%25C4%2590%25E1%25BA%25B3ng-Ngh%25E1%25BB%2581-C%25C6%25A1-%25C4%2590i%25E1%25BB%2587n-H%25C3%25A0-N%25E1%25BB%2599i%2F218297978255923&amp;locale=vi_VN&amp;sdk=joey&amp;show_border=true&amp;show_faces=true&amp;stream=false&amp;width=270"><span style="vertical-align: bottom; width: 270px; height: 130px;"><iframe name="f3b4b809b2de084" width="270px" height="365px" data-testid="fb:like_box Facebook Social Plugin" title="fb:like_box Facebook Social Plugin" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" src="https://www.facebook.com/plugins/like_box.php?app_id=&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df3a412643e7c2%26domain%3Dcodienhanoi.edu.vn%26is_canvas%3Dfalse%26origin%3Dhttp%253A%252F%252Fcodienhanoi.edu.vn%252Ff2df900c7752668%26relation%3Dparent.parent&amp;color_scheme=light&amp;container_width=0&amp;force_wall=false&amp;header=true&amp;height=365&amp;href=https%3A%2F%2Fwww.facebook.com%2Fpages%2FTr%25C6%25B0%25E1%25BB%259Dng-Cao-%25C4%2590%25E1%25BA%25B3ng-Ngh%25E1%25BB%2581-C%25C6%25A1-%25C4%2590i%25E1%25BB%2587n-H%25C3%25A0-N%25E1%25BB%2599i%2F218297978255923&amp;locale=vi_VN&amp;sdk=joey&amp;show_border=true&amp;show_faces=true&amp;stream=false&amp;width=270" style="border: none; visibility: visible; width: 270px; height: 130px;" class=""></iframe></span></div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- library -->
+        <div class="library col-12">
+            <div class="wrapper">
+                <div class="container">
+                    <div class="heading">
+                        <ion-icon name="camera-outline"></ion-icon>
+                        <strong>Thư viện ảnh</strong>
+                    </div>
+    
+                    <div class="slide-image col-12">
+                        <div class="image col-2">
+                            <img src="./images/article/atc1.jpg" alt="ảnh quá trình hoạt động trường">
+                        </div>
+                        <div class="image col-2">
+                            <img src="./images/article/atc2.jpg" alt="ảnh quá trình hoạt động trường">
+                        </div>
+                        <div class="image col-2">
+                            <img src="./images/article/atc3.jpg" alt="ảnh quá trình hoạt động trường">
+                        </div>
+                        <div class="image col-2">
+                            <img src="./images/article/atc4.jpg" alt="ảnh quá trình hoạt động trường">
+                        </div>
+                        <div class="image col-2">
+                            <img src="./images/article/atc5.jpg" alt="ảnh quá trình hoạt động trường">
+                        </div>
+                        <div class="image col-2">
+                            <img src="./images/article/atc6.jpg" alt="ảnh quá trình hoạt động trường">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- footer -->
+        <footer>
+            <div class="wrapper">
+                <div class="container">
+                    <div class="box">
+                        <p>Bản quyền © 2016. Trường CĐN Cơ điện Hà Nội</p>
+                        <p>160 Mai Dịch, Cầu Giấy, Hà Nội</p>
+                        <p>Phát triển bởi Khoa Công nghệ thông tin</p>
+                    </div>
+    
+                    <div class="box">
+                        <p>Điện thoại: (024) 38370425</p>
+                        <p>Fax: (024) 37648337</p>
+                        <p>Email: contact.hcem@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </section>
+</body>
+</html>
