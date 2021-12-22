@@ -140,9 +140,22 @@
         <!-- slide -->
         <section class="slide-show">
             <div class="slide-image">
-                <img src="./images/slider/slide1.jpg" alt="ảnh slide ">
+                <img id="img" onclick="changeImage()" src="./images/slider/slide1.jpg" alt="ảnh slide ">
             </div>
         </section>
+
+        <script>
+            var index = 1;
+            changeImage = function(){
+                var imgs = ["./images/slider/slide1.jpg", "./images/slider/slide2.jpg", "./images/slider/slide3.jpg"];
+                document.getElementById("img").src = imgs[index];
+                index++;
+                if (index == 3){
+                    index = 0;
+                }
+            }
+            setInterval(changeImage,4000);
+        </script>
 
         <!-- banner -->
         <div class="wrapper">
